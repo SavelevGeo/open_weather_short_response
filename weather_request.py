@@ -39,6 +39,6 @@ def req(coords, test = True):
                             ).T
         outDf.columns = ['day', 'temp', 'weather', 'pop']
         outDf.index = outDf.day
-    return outDf.drop(columns=['day'])
+        return outDf.drop(columns=['day'])
 	
 
